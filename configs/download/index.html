@@ -245,6 +245,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#warning" title="Warning:" class="md-nav__link">
+    Warning:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#windows-and-linux-jar-installer" title="Windows and Linux Jar Installer" class="md-nav__link">
     Windows and Linux Jar Installer
   </a>
@@ -457,6 +464,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#warning" title="Warning:" class="md-nav__link">
+    Warning:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#windows-and-linux-jar-installer" title="Windows and Linux Jar Installer" class="md-nav__link">
     Windows and Linux Jar Installer
   </a>
@@ -536,8 +550,11 @@
 <p>Note: In Linux you must to install the following packages: libcurl4-openssl-dev libssl-dev libxml2-dev</p>
 <pre><code> sudo apt-get install libcurl4-openssl-dev libssl-dev libxml2-dev
 </code></pre>
+<h3 id="warning">Warning:</h3>
+<p>If you are using version 3.4.2 of R software environment, please update to the most recent version 3.4.3, because many of the R packages needed by JBiclustGE presents errors during their installation, due to incompatibilities with version 3.4.2.</p>
+<p>To install or update R to release 3.4.3 in linux, you can run this shell script: <a href="../../files/install_R.sh">Download</a>  </p>
 <h3 id="windows-and-linux-jar-installer">Windows and Linux Jar Installer</h3>
-<p>This installer works in both Operating Systems. <a href="https://mega.nz/#!xe4hxBTA!r1YC7hUWr8HaSpOn0B11M6Oq_3woSZqPyFL_zCU2juk">Download</a>  </p>
+<p>This installer works in both Operating Systems. <a href="https://mega.nz/#!QLYVGDIB!2WaUXwyNnl4TsduRLJlzHToeIidnoswAu9M-ZOB0xu0">Download</a>  </p>
 <p>Instructions: </p>
 <ol>
 <li>Install Java SE Runtime Environment.</li>
@@ -545,10 +562,10 @@
 <li>Run installer.</li>
 </ol>
 <p>For Windows:</p>
-<pre><code>    Press over "jbiclustge-installer", follow the instructions given by the installer.
+<pre><code>    Press over "JBiclustGE-installer", follow the instructions given by the installer.
 </code></pre>
 <p>For Linux: </p>
-<pre><code>   First option: press the right button of the mouse over "jbiclustge-installer.jar", and choose "Open with Oracle Java 8 Runtime", follow the instructions given by the installer.
+<pre><code>   First option: press the right button of the mouse over "JBiclustGE-installer.jar", and choose "Open with Oracle Java 8 Runtime", follow the instructions given by the installer.
 
    Second option: open the  linux console, input the following commands,
        a) cd "path to folder where jbiclustge-installer.jar its stored", example "cd /home/user/"
@@ -556,11 +573,11 @@
        c) follow the instructions given by the installer
 </code></pre>
 <h3 id="linux-deb-installer">Linux Deb installer</h3>
-<p><a href="https://mega.nz/#!oLQl3B6D!HrMlZWI8tk1cOsecadK4sNJEKwKkWMZXXvJGY7smChI">Download</a></p>
+<p><a href="https://mega.nz/#!QDwnGZza!wMNiR5ZZk8grZiHFq6s2CkxDf6ucqBbncFQl2anzkFE">Download</a></p>
 <p>Install with package manager, or through linux console:</p>
 <ol>
-<li>cd "path to folder where jbiclustge_1.0-1_amd64.deb its stored", example "cd /home/user/"</li>
-<li>sudo dpkg -i jbiclustge_1.0-1_amd64.deb </li>
+<li>cd "path to folder where JBiclustGE.deb its stored", example "cd /home/user/"</li>
+<li>sudo dpkg -i JBiclustGE.deb</li>
 </ol>
 <p>Note: This process needs "SuperUser" privileges because the installation will be performed in opt/ directory. </p>
 <h2 id="jbiclustge-cli">JBiclustGE-CLI</h2>
@@ -570,14 +587,14 @@
 <li><a href="https://www.r-project.org/">R environment for statistical computing and graphics</a></li>
 </ul>
 <h3 id="windows-and-linux-jar-installer_1">Windows and Linux Jar Installer</h3>
-<p>This installer works in both Operating Systems. <a href="https://mega.nz/#!gHQTwJLJ!B53ggyPb8g13J9ZgT5ieqQ6z1p--1EmePoLy-CWH9tY">Download</a></p>
+<p>This installer works in both Operating Systems. <a href="https://mega.nz/#!FXx23KYI!5OjqL3KJfibwQHeYOr698Gy2J316J4XKvyWole_CO5M">Download</a></p>
 <p>Instructions: </p>
 <ol>
 <li>Install Java SE Runtime Environment.</li>
 <li>Run installer.</li>
 </ol>
 <p>For Windows:</p>
-<pre><code>    1) Press over "jbiclustge-cli-installer.jar", follow the instructions given by the installer.
+<pre><code>    1) Press over "JBiclustGE-cli-installer.jar", follow the instructions given by the installer.
     2) Open the folder where you have installed the JBiclustGE-CLI, example:  C:\Users\"windows user"\JBiclustGE-CLI
     3) Press over "add_jbiclustge-cli_as_environment_variable" that is inside "JBiclustGE-CLI" folder.
     4) Open a Windows command line prompt "cmd".
@@ -585,7 +602,7 @@
     6) write command "jbiclustge-cli -conf" to configure the JBiclustGE-CLI execution environment.
 </code></pre>
 <p>For Linux: </p>
-<pre><code>   First option: press the right button of the mouse over "jbiclustge-cli-installer.jar", and choose "Open with Oracle Java 8 Runtime", follow the instructions given by the installer.
+<pre><code>   First option: press the right button of the mouse over "JBiclustGE-cli-installer.jar", and choose "Open with Oracle Java 8 Runtime", follow the instructions given by the installer.
 
    Second option: open the  linux console, input the following commands,
        a) cd "path to folder where jbiclustge-cli-installer.jar its stored", example "cd /home/user/"
@@ -606,11 +623,11 @@
               2) jbiclustge-cli -conf choosefolder  'this will do the initial configuration of JBiclustGE-CLI, and all the necessary R packages will be installed in the directory that you have chosen'
 </code></pre>
 <h3 id="linux-deb-installer_1">Linux Deb installer</h3>
-<p><a href="https://mega.nz/#!9P4XBYSA!i7BTrH6e7vMLLHJAXEG2Do13rXTmDxsH-dvWm7NkqYQ">Download</a></p>
+<p><a href="https://mega.nz/#!8bwF3Aya!Gk2sPnyfRFQgVULfssPOLI9HAzvgE-MHHBoQ0PfiVZc">Download</a></p>
 <p>Install with package manager, or through linux console:</p>
 <ol>
-<li>cd "path to folder where jbiclustge-cli_1.0-1_amd64.deb its stored", example "cd /home/user/"</li>
-<li>sudo dpkg -i jbiclustge-cli_1.0-1_amd64.deb. </li>
+<li>cd "path to folder where JBiclustGE-cli.deb its stored", example "cd /home/user/"</li>
+<li>sudo dpkg -i JBiclustGE-cli.deb </li>
 </ol>
 <p>Note: This process needs "SuperUser" privileges because the installation will be performed in opt/ directory. </p>
 <pre><code>  Configure jbiclustge-cli:
