@@ -33,9 +33,9 @@ cd R-$RVERSION/
 
 ./configure --enable-R-shlib --enable-R-static-lib
 make 
-#sudo make install
+sudo make install
 
-#rm -f -R ~/compile-R
+rm -f -R ~/compile-R
 
 
 
