@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-02-19</lastmod>
+     <lastmod>2018-02-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,13 +13,13 @@
         
     <url>
      <loc>/configs/download/</loc>
-     <lastmod>2018-02-19</lastmod>
+     <lastmod>2018-02-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/configs/install/</loc>
-     <lastmod>2018-02-19</lastmod>
+     <lastmod>2018-02-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -29,19 +29,29 @@
         
     <url>
      <loc>/manual/manualjbiclustgegui/</loc>
-     <lastmod>2018-02-19</lastmod>
+     <lastmod>2018-02-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/manual/manualjbiclustgecli/</loc>
-     <lastmod>2018-02-19</lastmod>
+     <lastmod>2018-02-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/manual/jbiclustgeapi/</loc>
+     <lastmod>2018-02-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>/manual/jbiclustgeapi/</loc>
-     <lastmod>2018-02-19</lastmod>
+     <loc>/manual/jbiclustgegui/</loc>
+     <lastmod>2018-02-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -51,7 +61,7 @@
         
     <url>
      <loc>/studies/studiesjbiclustge/</loc>
-     <lastmod>2018-02-19</lastmod>
+     <lastmod>2018-02-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
