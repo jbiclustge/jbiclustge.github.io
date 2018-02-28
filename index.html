@@ -178,9 +178,38 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Home
+      </label>
+    
     <a href="." title="Home" class="md-nav__link md-nav__link--active">
       Home
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#comparison-between-features-provided-by-jbiclustge-and-other-relevant-biclustering-frameworks" title="Comparison between features provided by JBiclustGE and other relevant biclustering frameworks" class="md-nav__link">
+    Comparison between features provided by JBiclustGE and other relevant biclustering frameworks
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -382,6 +411,22 @@
     
   
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#comparison-between-features-provided-by-jbiclustge-and-other-relevant-biclustering-frameworks" title="Comparison between features provided by JBiclustGE and other relevant biclustering frameworks" class="md-nav__link">
+    Comparison between features provided by JBiclustGE and other relevant biclustering frameworks
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -423,8 +468,135 @@
 <li>Built-in frameworks for the Gene Set Enrichment Analysis (GSEA).</li>
 <li>Evaluation measures.</li>
 <li>Generation of synthetic datasets.</li>
-<li>Visualization of biclustering results (Heatmaps and Parallel coordinates).  </li>
+<li>Visualization of biclustering results (Heatmaps and Parallel coordinates). </li>
 </ul>
+<h2 id="comparison-between-features-provided-by-jbiclustge-and-other-relevant-biclustering-frameworks">Comparison between features provided by JBiclustGE and other relevant biclustering frameworks</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Feature</th>
+<th align="center">JBiclustGE</th>
+<th align="center"><a href="http://www.tik.ee.ethz.ch/sop/bicat/">BiCAT</a></th>
+<th align="center"><a href="https://cran.r-project.org/web/packages/biclust/index.html">biclust</a></th>
+<th align="center"><a href="http://bmi.osu.edu/hpc/software/bibench/">BiBench</a></th>
+<th align="center"><a href="http://www.iitk.ac.in/idea/mtba/">MTBA</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Programming language</td>
+<td align="center">Java</td>
+<td align="center">Java</td>
+<td align="center">R</td>
+<td align="center">Python</td>
+<td align="center">Matlab</td>
+</tr>
+<tr>
+<td align="left">Number Biclustering algorithms</td>
+<td align="center">21</td>
+<td align="center">6</td>
+<td align="center">6</td>
+<td align="center">12</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td align="left">Graphical Interface</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">no</td>
+<td align="center">no</td>
+</tr>
+<tr>
+<td align="left">Requires programming expertise</td>
+<td align="center">no</td>
+<td align="center">no</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+</tr>
+<tr>
+<td align="left">Visualization features</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+</tr>
+<tr>
+<td align="left">Synthetic data</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">no</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+</tr>
+<tr>
+<td align="left">Built-in gene enrichment analysis</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">no</td>
+<td align="center">no</td>
+<td align="center">no</td>
+</tr>
+<tr>
+<td align="left">Post-Processing:</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Filtering</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+</tr>
+<tr>
+<td align="left">Overlap</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+</tr>
+<tr>
+<td align="left">Similarity</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+</tr>
+<tr>
+<td align="left">Pairwise analysis</td>
+<td align="center">yes</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+</tr>
+<tr>
+<td align="left">Coherence</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">no</td>
+</tr>
+<tr>
+<td align="left">Coverage</td>
+<td align="center">yes</td>
+<td align="center">no</td>
+<td align="center">no</td>
+<td align="center">no</td>
+<td align="center">no</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
